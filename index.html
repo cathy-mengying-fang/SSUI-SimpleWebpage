@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>My Awesome Store</title>
+  <title>Fluff Stuff</title>
 
   <!--The following line loads in your CSS style sheet-->
   <link rel="stylesheet" href="styles/index.css">
@@ -11,13 +11,33 @@
   <link href="https://fonts.googleapis.com/css?family=Bad+Script|Lato" rel="stylesheet">
 
   <!--The following line loads in your JS script-->
-  <script src="js/todo.js"></script>
+  <script src="js/index.js"></script>
 </head>
 
 <body>
-  <h1>Welcome to my store!</h1>
-  <p>This store sells all kinds of items. We have old items and new items. Some items are more expensive than others.</p>
-  <img src="./resources/images/whatsInStore.png" class="starterImage" alt="a picture of a box that says what's in store for your store"></img>
-  <p>Feel free to delete this content! This is only to put down some html tags and css to get you started.</p>
+  <nav class="topNavContainer">
+    <h1 class="logo"> Fluff Stuff</h1>
+    <div class="topNavMain">
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#Fabrication">Fabrication</a>
+      <a href="#cart">Cart</a>
+      <a href="#login">Log In/Check Out</a>
+  </nav>
+  <div class="contentWrapper">
+  <nav class="sideNav">
+    <a href="#type">Type</a>
+    <a href="#color">Color</a>
+    <a href="#filler">Filler</a>
+    <a href="#sale">Sale</a>
+  </nav>
+  
+    <div class="contentHead">
+      <h2>All Pillows (40)</h2>
+    </div>
+    <div class="contentArea">
+    </div>
+  </div>
 </body>
+<script>loadPage()</script>
 </html>

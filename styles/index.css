@@ -1,13 +1,64 @@
 
 body{
   text-align: center;
-  width: 40%;
   margin: auto;
+  font-family: 'Avenir','Helvetica Neue';
 }
+
+.topNavContainer{
+    overflow: hidden;
+    width:100%;
+    position:relative;
+    top:20px;
+
+}
+
+.logo{
+    float:left;
+}
+
+.topNavMain{
+    float:right;
+}
+
+.topNavMain a{
+    text-align: center;
+    text-decoration: none;
+    font-color: blue;
+    padding:14px 16px;
+    position-top: 10px;
+
+}
+
+.contentWrapper{
+    margin:auto;
+    position: relative;
+    width:90%;
+}
+
+.sideNav{
+    float:left;
+}
+
+.sideNav a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.contentArea{
+     width:40%;
+
+}
+
 
 h1 {
   font-family: 'Bad Script', cursive;
-  color: orangered;
+  color: blue;
+}
+
+h2 {
+    font-size: 
 }
 
 p {
@@ -15,6 +66,3 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
-.starterImage{
-  width: 16em;
-}
