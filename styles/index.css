@@ -6,44 +6,50 @@ body{
 }
 
 .topNavContainer{
-    overflow: hidden;
-    width:100%;
-    position:relative;
-    top:20px;
+  width:100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display:inline-block;
 
 }
 
 .logo{
-    float:left;
+  text-align: left;
+  margin-left: 10px;
+  float:left;
 }
 
 .topNavMain{
-    float:right;
+  text-align: right;
+  margin-top: 50px;
+
 }
 
 .topNavMain a{
-    text-align: center;
-    text-decoration: none;
-    font-color: blue;
-    padding:14px 16px;
-    position-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-color: blue;
+  padding:14px 16px;
+  position-top: 10px;
 
 }
 
 .contentWrapper{
-    margin:auto;
-    position: relative;
-    width:90%;
+  width:90%;
+  margin-left: 20px; 
+  display:inline-block;
 }
 
 .sideNav{
     float:left;
+    margin-top: 20px;
 }
 
 .sideNav a{
-    display: block;
     text-align: center;
     text-decoration: none;
+    display:block;
+    padding-bottom: 10px;
 }
 
 .contentArea{
