@@ -53,9 +53,35 @@ body{
 }
 
 .contentArea{
-     width:40%;
+     width:90%;
+     display: inline-block;
 
 }
+
+.itemBlock{
+  width: 30%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+/*  padding: 0.5em;
+/*  padding-top: 1em;
+*/  height: 200px;
+  display: inline-block;
+}
+
+
+.pillowImg{
+  width: calc(100% - 1em);
+  height: calc(80% - 1em);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+
+
+
+
 
 
 h1 {
