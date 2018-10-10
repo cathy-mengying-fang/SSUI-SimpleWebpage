@@ -95,11 +95,12 @@ body{
 .optionDropDown{
   margin-left: 20px;
   margin-top: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 button{
-  margin-left: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 
@@ -115,6 +116,7 @@ h5{
   clear:left;
   float:left;
   margin-top: 15px;
+  margin-bottom: 0px;
 }
 p {
   text-align: left;
